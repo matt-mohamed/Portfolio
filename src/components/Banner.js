@@ -53,7 +53,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Matthew a `} <br /> <span className="txt-rotate" dataPeriod="1000" data-rotate='[  "SoftWare Engineer", "Web Developer", "Student"  ]'><span className="wrap">{text}</span></span></h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Aspiring Computer Science Major | Passionate about Problem-Solving and Coding. I am currently pursuing a Bachelor of Science in Computer Science at Stevens Institute of Technology, where I have developed a strong foundation in programming and data structures. With hands-on experience in Java, JavaScript, and Python.</p>
                 <button onClick={() => { window.location.hash = ''; window.location.hash = '#connect'; }}>Let’s Connect <ArrowRightCircle size={25} /></button>
           </Col>
           <Col xs={12} md={6} xl={5}>
