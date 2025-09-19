@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 
 export const Banner = () => {
@@ -53,7 +52,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Matthew a `} <br /> <span className="txt-rotate" dataPeriod="1000" data-rotate='[  "SoftWare Engineer", "Web Developer", "Student"  ]'><span className="wrap">{text}</span></span></h1>
-                <p>Aspiring Computer Science Major | Passionate about Problem-Solving and Coding. I am currently pursuing a Bachelor of Science in Computer Science at Stevens Institute of Technology, where I have developed a strong foundation in programming and data structures. With hands-on experience in Java, JavaScript, and Python.</p>
+                <p>Aspiring Computer Science Major | Passionate about Problem-Solving and Coding. I am currently pursuing a BS in Computer Science with a minor in Cybersecurity at Stevens Institute of Technology. I have developed a strong foundation in programming and data structures. With hands-on experience in Java, JavaScript, C, and C++.</p>
                 <button onClick={() => { window.location.href ="mailto:mattmohamed2005@gmail.com?subject=Hello from your portfolio&body=Hi Matthew,%0D%0A%0D%0AI saw your portfolio and would love to connect!";}}>Let’s Connect <ArrowRightCircle size={25} /></button>
           </Col>
         </Row>
