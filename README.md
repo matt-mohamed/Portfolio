@@ -1,10 +1,6 @@
 Portfolio Website
 This repository contains the source code for my personal portfolio website, built using HTML, CSS, and React-Bootstrap. The website serves as a showcase of my projects, skills, and achievements in media, entertainment, and technology.
 
-Project Status
-🚧 Under Construction 🚧
-The website is currently in progress, and several sections and features are yet to be completed. Check back soon for updates!
-
 Features
 Responsive Design: Ensures an optimal viewing experience on devices of all sizes.
 React-Bootstrap Components: Utilizes pre-designed Bootstrap components to maintain consistency and enhance user experience.
