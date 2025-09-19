@@ -54,11 +54,8 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Matthew a `} <br /> <span className="txt-rotate" dataPeriod="1000" data-rotate='[  "SoftWare Engineer", "Web Developer", "Student"  ]'><span className="wrap">{text}</span></span></h1>
                 <p>Aspiring Computer Science Major | Passionate about Problem-Solving and Coding. I am currently pursuing a Bachelor of Science in Computer Science at Stevens Institute of Technology, where I have developed a strong foundation in programming and data structures. With hands-on experience in Java, JavaScript, and Python.</p>
-                <button onClick={() => { window.location.hash = ''; window.location.hash = '#connect'; }}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                <button onClick={() => { window.location.href ="mailto:mattmohamed2005@gmail.com?subject=Hello from your portfolio&body=Hi Matthew,%0D%0A%0D%0AI saw your portfolio and would love to connect!";}}>Let’s Connect <ArrowRightCircle size={25} /></button>
           </Col>
-          <Col xs={12} md={6} xl={5}>
-                <img src={headerImg} alt="Header Img"/>
-            </Col>
         </Row>
       </Container>
     </section>

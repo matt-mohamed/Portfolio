@@ -49,7 +49,7 @@ export const NavBar = () => {
                 <a href="https://github.com/matt-mohamed" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="" /></a>
                 <a href="#"><img src={navIcon3} alt="" /></a>
               </div>
-                <button className="vvd" onClick={() => { window.location.hash = ''; window.location.hash = '#connect'; }}><span>Let's Connect</span></button>
+                <button className="vvd" onClick={() => { window.location.href = "mailto:mattmohamed2005@gmail.com?subject=Hello from your portfolio&body=Hi Matthew,%0D%0A%0D%0AI saw your portfolio and would love to connect!"; }}><span>Let's Connect</span></button>
             </span>
           </Navbar.Collapse>
         </Container>

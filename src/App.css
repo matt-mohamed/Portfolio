@@ -388,20 +388,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
   background-color: black;
 }
+
+/* Bigger header */
 .project h2 {
-	font-size: 45px;
-	font-weight: 700;
+  font-size: 55px;       /* was smaller */
+  font-weight: 800;
   text-align: center;
 }
+
+/* Bigger description */
 .project p {
   color: #B8B8B8;
-  font-size: 18px;
+  font-size: 20px;       /* bumped up from 18–22px */
   letter-spacing: 0.8px;
-  line-height: 1.5em;
-  margin: 14px auto 30px auto;
+  line-height: 1.6em;
+  margin: 20px auto 40px auto;
   text-align: center;
-  width: 56%;
+  width: 65%;            /* give the paragraph more width */
 }
+
+/* Tabs */
 .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
@@ -409,58 +415,70 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
 }
+
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;
 }
+
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
-  padding: 17px 0;
+  padding: 20px 0;       /* was 17px */
   color: #fff;
   width: 100%;
-  font-size: 17px;
+  font-size: 20px;       /* was 17px */
   letter-spacing: 0.8px;
-  font-weight: 500;
+  font-weight: 600;      /* stronger */
   position: relative;
   transition: 0.3s ease-in-out;
   text-align: center;
   z-index: 0;
 }
+
 .project .nav.nav-pills .nav-link::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
 }
+
 .project .nav.nav-pills .nav-link.active::before {
-    width: 100% !important;
+  width: 100% !important;
 }
+
 .project .nav.nav-pills .nav-link.active {
-    border: 1px solid rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
 }
+
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
 }
+
 .nav-link#projects-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
+
 .nav-link#projects-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
+
+/* Project card box */
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
-  margin-bottom: 24px;
+  margin: 0 auto 24px;   /* auto centers card */
+  max-width: 520px;      /* keep reasonable size */
 }
+
 .proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
@@ -470,9 +488,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 0;
   transition: 0.4s ease-in-out;
 }
+
 .proj-imgbx:hover::before {
   height: 100%;
 }
+
+/* Overlay text */
 .proj-txtx {
   position: absolute;
   text-align: center;
@@ -483,22 +504,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 0;
   width: 100%;
 }
+
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;
 }
+
 .proj-txtx h4 {
-  font-size: 30px;
+  font-size: 36px;       /* was 30px */
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
+
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;       /* was 15px */
   letter-spacing: 0.8px;
 }
+
+/* Background accent */
 .background-image-right {
   top: 20%;
   position: absolute;
